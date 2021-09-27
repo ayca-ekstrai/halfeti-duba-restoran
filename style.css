@@ -1,0 +1,29 @@
+#navbar {
+  font-family: Viga;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.nav-item {
+  color: #1d6fbb;
+  text-decoration: none;
+}
+
+
+.btn {
+	color: white;
+	background-color: #1d6fbb;
+	border: 5px solid transparent;
+	transition: .2s ease;
+	border-radius: 50px;
+}
+
+.btn:hover {
+	color: #1d6fbb;
+	background-color: white;
+	transform: scale(1.1);
+	border: 5px solid #1d6fbb;
+}
