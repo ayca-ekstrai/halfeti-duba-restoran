@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 34px;
+  line-height: 35px;
   text-align: center;
 }
 
@@ -89,8 +89,8 @@
 .jumbotron h2 {margin-top:0;}
 .jumbotron {
   position:relative;
-  padding-top:250px;
-  padding-bottom:250px;
+  padding-top:200px;
+  padding-bottom:200px;
 }
 .jumbotron .container {
   position:relative;
