@@ -115,6 +115,12 @@
   line-height: 27px;
 }
 
+/*-- ============================ Carousel  ============================ --*/
+.carousel {
+  height: 600px; 
+  object-fit: cover;
+}
+
 /*-- ============================ Galeri  ============================ --*/
 #container-catolog {
   padding-left: 50px;
