@@ -114,6 +114,10 @@
   line-height: 35px;
 }
 
+.card-title{
+  font-family: 'Anton', sans-serif;
+}
+
 /*-- ============================ Carousel  ============================ --*/
 .carousel {
   height: 600px; 
