@@ -118,6 +118,18 @@
   font-family: 'Anton', sans-serif;
 }
 
+.baslik{
+  font-family: 'Alex Brush', cursive;
+  font-weight: bolder;
+  color: #1d6fbb;
+  font-size: 40px;
+}
+
+.description {
+  font-family: 'Damion', cursive;
+  font-size: 25px;
+}
+
 /*-- ============================ Carousel  ============================ --*/
 .carousel {
   height: 600px; 
