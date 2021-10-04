@@ -155,7 +155,7 @@
 }
 /*-- ============================ Gezilecek yerler ============================ --*/
 .text {
-  font-family: Viga;
+  font-family: 'Anton', sans-serif;
   font-weight: 100;
   font-size: 40px;
   line-height: 20px;
@@ -165,10 +165,9 @@
 }
 
 .place {
-  font-family: Work Sans;
+  font-family: 'Anton', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 29px;
   padding-top: 20px;
   padding-bottom: 20px;
