@@ -1,5 +1,5 @@
 #navbar {
-    font-family: Viga;
+  font-family: 'Anton', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -33,6 +33,7 @@
       -webkit-user-select: none;
       -moz-user-select: none;
       user-select: none;
+      font-family: Bebas Neue;
     }
   
     @media (min-width: 768px) {
@@ -42,14 +43,14 @@
     }
 
   .footer{
-	font-family: Bebas Neue;
+  font-family: 'Anton', sans-serif;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
+  font-weight: regular;
+	font-size: 16px;
 	line-height: 22px;
 	display: flex;
 	align-items: center;
-	color: #000000;
+	color: #5a5a5a;
   }
 
   * {
@@ -92,6 +93,10 @@
     font-family: Bebas Neue;
   }
   
+  .mesaj{
+    font-family: 'Saira Condensed', sans-serif;
+  }
+
   .flex-container {
     display: flex;
     padding: 40px;
@@ -130,7 +135,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    font-family: Work Sans;
+    font-family: 'Saira Condensed', sans-serif;
     border-color: #1d6fbb;
   }
   
@@ -147,7 +152,7 @@
     border-radius: 20px;
     cursor: pointer;
     float: right;
-    font-family: Work Sans;
+    font-family: 'Saira Condensed', sans-serif;
   }
   
   input[type="submit"]:hover {

@@ -1,5 +1,5 @@
 #navbar {
-  font-family: Viga;
+  font-family: 'Anton', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -41,7 +41,7 @@
 }
 
 .featurette-heading {
-  font-family: Viga;
+  font-family: 'Anton', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -51,25 +51,24 @@
 }
 
 .lead {
-  font-family: Viga;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
   text-align: right;
   color: #5b5b5b;
 }
 
-.footer {
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  color: #000000;
-}
+.footer{
+  font-family: 'Anton', sans-serif;
+	font-style: normal;
+  font-weight: regular;
+	font-size: 16px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	color: #5a5a5a;
+  }
+  
 /*gezilecek-yerler*/
 .jumbotron-billboard .img {
   margin-bottom: 0px;
@@ -108,11 +107,11 @@
 /*card*/
 .card1 {
   background: rgba(29, 111, 187, 0.45);
-  font-family: Viga;
+  font-family: 'Prompt', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 27px;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 35px;
 }
 
 /*-- ============================ Carousel  ============================ --*/
