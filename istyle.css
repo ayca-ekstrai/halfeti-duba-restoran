@@ -12,7 +12,6 @@
     text-decoration: none;
   }
   
-  
   .btn {
       color: white;
       background-color: #1d6fbb;
@@ -27,6 +26,7 @@
       transform: scale(1.1);
       border: 5px solid #1d6fbb;
   }
+
   .bd-placeholder-img {
       font-size: 1.125rem;
       text-anchor: middle;
@@ -46,7 +46,7 @@
   font-family: 'Anton', sans-serif;
 	font-style: normal;
   font-weight: regular;
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 22px;
 	display: flex;
 	align-items: center;
