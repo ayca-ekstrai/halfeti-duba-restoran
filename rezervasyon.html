@@ -30,108 +30,111 @@
 </head>
 
 <body>
-    <!-- HERO -->
-    <div class="hero jumbotron-fluid" id="home">
-        <!-- navbar -->
+  <!-- HERO -->
+  <div class="hero jumbotron-fluid" id="home">
+    <!-- navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg p-5 navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./images/duba-logo.png" alt="" class="img-fluid" width="180">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html"><p class="deneme">Anasayfa</p></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html"><p class="deneme">Hizmetler</p></a>
-              </li>
-              <li class="nav-item dropdown deneme">
-                <a class="nav-link dropdown-toggle deneme" href="" id="deneme" 
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Köşk Duba'ya Ait
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./galeri.html">Galeri</a></li>
-                  <li><a class="dropdown-item" href="./galeri.html">Gezilecek Yerler</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./iletisim.html"><p class="deneme">İletişim</p></a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <button class="btn btn-lg btn-outline-primary" type="submit">Rezervasyon</button>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/duba-logo.png" alt="" class="img-fluid" width="180">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">
+                <p class="deneme">Anasayfa</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">
+                <p class="deneme">Hizmetler</p>
+              </a>
+            </li>
+            <li class="nav-item dropdown deneme">
+              <a class="nav-link dropdown-toggle deneme" href="" id="deneme" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Köşk Duba'ya Ait
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./galeri.html">Galeri</a></li>
+                <li><a class="dropdown-item" href="./galeri.html">Gezilecek Yerler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./iletisim.html">
+                <p class="deneme">İletişim</p>
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="./rezervasyon.html"><button class="btn btn-lg btn-outline-primary">Rezervasyon</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <div class="vh-100 d-flex align-items-center m-0 jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 p-5 mb-0 mx-auto text-start">
+            <form>
+              <div class="form-group my-5">
+                <label for="exampleInputEmail1" class="mb-2 baslik">ADI SOYADI:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group my-5">
+                <label for="exampleInputEmail1" class="mb-2 baslik">MAİL ADRESİ:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group my-5">
+                <label for="exampleInputEmail1" class="mb-2 baslik">TELEFON NUMARASI:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group my-5">
+                <label for="exampleInputEmail1" class="mb-2 baslik">TARİHİ BELİRTİNİZ:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="my-5 baslik">
+                <label for="exampleInputEmail1" class="mb-2 saat">SAATLERİ SEÇİNİZ:</label>
+                <div class="form-check">
+                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                  <label class="form-check-label" for="credit">08.00 - 11.00 </label>
+                </div>
+                <div class="form-check">
+                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                  <label class="form-check-label" for="debit">11.00 - 15.00</label>
+                </div>
+                <div class="form-check">
+                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                  <label class="form-check-label" for="paypal">15.00 - 00.00</label>
+                </div>
+                <div class="form-check">
+                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                  <label class="form-check-label" for="paypal">00.00'dan sonra</label>
+                </div>
+              </div>
+              <div class="form-group my-5">
+                <label for="exampleInputEmail1" class="mb-2 baslik">AÇIKLAMA :</label>
+                <div>
+                  <textarea class="form-control" id="validationTextarea"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="GÖNDER">
+              </div>
             </form>
           </div>
         </div>
-      </nav>
-    <!-- navbar -->
-        <div class="vh-100 d-flex align-items-center m-0 jumbotron-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 p-5 mb-0 mx-auto text-start">
-                        <form>
-                            <div class="form-group my-5">
-                                <label for="exampleInputEmail1" class="mb-2 baslik">ADI SOYADI:</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group my-5">
-                                <label for="exampleInputEmail1" class="mb-2 baslik">MAİL ADRESİ:</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group my-5">
-                                <label for="exampleInputEmail1" class="mb-2 baslik">TELEFON NUMARASI:</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group my-5">
-                                <label for="exampleInputEmail1" class="mb-2 baslik">TARİHİ BELİRTİNİZ:</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="my-5 baslik">
-                                <label for="exampleInputEmail1" class="mb-2 saat">SAATLERİ SEÇİNİZ:</label>
-                                <div class="form-check">
-                                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-                                  <label class="form-check-label" for="credit">08.00 - 11.00 </label>
-                                </div>
-                                <div class="form-check">
-                                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-                                  <label class="form-check-label" for="debit">11.00 - 15.00</label>
-                                </div>
-                                <div class="form-check">
-                                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                                  <label class="form-check-label" for="paypal">15.00 - 00.00</label>
-                                </div>
-                                <div class="form-check">
-                                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                                    <label class="form-check-label" for="paypal">00.00'dan sonra</label>
-                                  </div>
-                              </div>
-                            <div class="form-group my-5">
-                                <label for="exampleInputEmail1" class="mb-2 baslik">AÇIKLAMA :</label>
-                                <div>
-                                    <textarea class="form-control" id="validationTextarea"></textarea>
-                                  </div>
-                            </div>
-                            <div class="row">
-                                <input type="submit" value="GÖNDER">
-                              </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
 
 
-      <!-- footer -->
+  <!-- footer -->
   <footer class="container p-3 my-5">
     <p class="float-start footer">
       <img src="./images/duba-logo.png" alt="" class="img-fluid" width="180">
