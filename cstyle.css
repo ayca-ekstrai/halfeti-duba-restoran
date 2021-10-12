@@ -2,27 +2,28 @@
   font-family: "Anton", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 35px;
+  font-size: 20px;
   text-align: center;
 }
 
 .nav-item {
-  color: #1d6fbb;
+  color: #fff;
   text-decoration: none;
+  margin-right: 30px;
+  margin-top: 10px;
 }
 
 .deneme {
-  color: #1d6fbb;
+  color: #fff;
   text-decoration: none;
 }
 
 #deneme {
-  color: #1d6fbb;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-.btn {
+/* .btn {
   color: white;
   background-color: #1d6fbb;
   border: 5px solid transparent;
@@ -35,7 +36,7 @@
   background-color: white;
   transform: scale(1.1);
   border: 5px solid #1d6fbb;
-}
+} */
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -84,18 +85,18 @@
 
 .form-control {
   background: rgba(196, 196, 196, 0.38);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(182, 182, 182, 0.25);
   border-radius: 18px;
   border: none;
 }
 input[type="submit"] {
   background: #1d6fbb;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.397);
-  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.712);
+  border-radius: 5px;
   width: 100%;
   font-family: "Anton", sans-serif;
   padding: 5px;
-  color: #000;
+  color: #fff;
 }
 
 input[type="submit"]:hover {
@@ -112,8 +113,8 @@ input[type="submit"]:hover {
   font-size: 20px;
   color: #1f1f1f;
 }
-.saat{
-    font-family: "Anton", sans-serif;
+.saat {
+  font-family: "Anton", sans-serif;
   font-size: 25px;
   line-height: 20px;
   color: #1f1f1f;
