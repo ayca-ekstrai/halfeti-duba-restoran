@@ -1,0 +1,114 @@
+:root {
+    --wesbos: #0d66b9;
+  }
+  
+  .menu {
+    display: none;
+    padding: 40px;
+  }
+  .menu--is-visible {
+    display: grid;
+  }
+  @media (min-width: 768px) {
+    .menu {
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 80px;
+    }
+  }
+  
+  .item__header {
+    display: flex;
+    align-items: baseline;
+  }
+  .item__title {
+    font-size: 30px;
+    color: var(--wesbos);
+    letter-spacing: 2px;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #1d6fbb;
+    text-shadow: 4px 4px 6px #FFF;
+  }
+  .item__dots {
+    flex: 1;
+    border-bottom: 1px dashed #aaa;
+    margin: 0 15px;
+  }
+  .item__price {
+    color: var(--wesbos);
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 4px 4px 6px #FFF;
+  }
+  .item__description {
+    margin-bottom: 40px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+  }
+  @media (min-width: 768px) {
+    .buttons-container {
+      margin-bottom: 60px;
+    }
+  }
+  
+  .button {
+    margin: 5px 10px;
+    padding: 5px 15px;
+    border: 1px solid var(--wesbos);
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: var(--wesbos);
+    border-radius: 3px;
+    z-index: -1;
+    transition: 0.24s;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1592064064956-30807b590c08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Prompt", sans-serif;
+    color: #fff;
+    opacity: 0.9;
+    line-height: 1.5rem;
+  }
+  
+  .wrapper {
+    max-width: 1000px;
+    margin: 0 auto; 
+    /* font-family: 'Anton', sans-serif; */
+  }
+  
+  /* h2 {
+    display: inline-block;
+    border-bottom: 5px solid var(--wesbos);
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.4rem;
+  } */

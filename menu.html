@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap" rel="stylesheet">
+  <title>Dayı'nın Yeri QR Menü</title>
+  <link rel="stylesheet" href="./menu/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="row">
+      <img src="./duba-logo.svg" width="100%" alt="">
+    </div>
+    
+    <!-- <div class="row my-5" >
+      <h2>Our Menu</h2>
+    </div> -->
+
+    <div class="buttons-container">
+      <a href="#" class="button button--is-active" data-target="pizzaMenu">Ana Yemekler</a>
+      <a href="#" class="button" data-target="coffeeMenu">Mezeler</a>
+      <a href="#" class="button" data-target="noodlesMenu">İçecekler</a>
+    </div>
+
+    <!-- Start Pizza Menu -->
+    <div class="menu menu--is-visible" id="pizzaMenu">
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Şabut Balığı</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">45₺</span>
+        </div>
+        <p class="item__description">Sadece Fırat ve Dicle Nehirleri'nde yaşayan bir tatlı su balığı</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Alabalık</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">40₺</span>
+        </div>
+        <p class="item__description">Alabalık</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Haşhaş Kebabı</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">40₺</span>
+        </div>
+        <p class="item__description">Kırmızı Biber, Sarımsak ve Maydanoz</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Patlıcan Kebabı</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">45₺</span>
+        </div>
+        <p class="item__description">Patlıcan, Kıyma, Soğan, Pul Biber, Kimyon </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Urfa Kebap</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">40₺</span>
+        </div>
+        <p class="item__description"> Kıyma, Tuz </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Adana Kebabı</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">40₺</span>
+        </div>
+        <p class="item__description"> Soğan, Pul Biber, Kimyon </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Domatesli Kebab</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">40₺</span>
+        </div>
+        <p class="item__description">Kıyma, Soğan, Maydanoz, Pul Biber, Kiraz Domates</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Kuzu Şiş</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">45₺</span>
+        </div>
+        <p class="item__description">Kuzu Kuşbaşı, Tuz</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Tavuk Şiş</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">35₺</span>
+        </div>
+        <p class="item__description">Tavuk Gögsü, Pul Biber, Tuz, Kekik </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Tavuk Kanat</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">35₺</span>
+        </div>
+        <p class="item__description">Tavuk Kanat, Kekik, Pul Biber, Tuz</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Ali Nazik</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">50₺</span>
+        </div>
+        <p class="item__description">Patlıcan, Sarımsak, Süzme Yoğurt, Kıyma, Sıvı Yağ, Tuz, Karabiber, Kırmızı Pul Biber</p>
+      </div>
+    </div> <!-- End Pizza Menu -->
+
+    <!-- Start Coffee Menu -->
+    <div class="menu" id="noodlesMenu">
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Kola</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">10₺</span>
+        </div>
+        <p class="item__description"> </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Fanta</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">10₺</span>
+        </div>
+        <p class="item__description"></p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Şalgam</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">5₺</span>
+        </div>
+        <p class="item__description"> </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Ayran</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">5₺</span>
+        </div>
+        <p class="item__description"> </p>
+      </div>
+    </div> <!-- End Coffee Menu -->
+
+    <!-- Start Noodles Menu -->
+    <div class="menu" id="coffeeMenu">
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Muhammara</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">20₺</span>
+        </div>
+        <p class="item__description">Domates salçası, biber salçası, sızma zeytinyağı, ekmek kırıntısı, ceviz içi, sarımsak, kimyon, pul biber</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Yoğurtlu Mezeler</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">20₺</span>
+        </div>
+        <p class="item__description">Süzme yoğurt, ceviz, sarımsak, Beyaz peynir, Sıvı yağ, Nane, Tuz</p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Salatalar</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">20₺</span>
+        </div>
+        <p class="item__description">Mevsim Salatası, Roka Salatası, Çoban Salatası </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Badem Ceviz</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">40₺</span>
+        </div>
+        <p class="item__description">Badem Ceviz Tabağı </p>
+      </div>
+
+      <div class="item">
+        <div class="item__header">
+          <h3 class="item__title">Diğer Mezeler</h3>
+          <span class="item__dots"></span>
+          <span class="item__price">20₺</span>
+        </div>
+        <p class="item__description">Havuç Tarator, Köpoğlu, Girit ezme, Acılı ezme  </p>
+      </div>
+    </div> <!-- End Noodles Menu -->
+
+  </div> <!-- End Wrapper -->
+  <script src="./menu/main.js"></script>
+</body>
+
+</html>
