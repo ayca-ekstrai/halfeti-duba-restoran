@@ -43,11 +43,12 @@
   .item__description {
     margin-bottom: 40px;
   }
-  
+  .item__description span{
+    color: #322c2900;
+  }
   .buttons-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-bottom: 35px;
   }
   @media (min-width: 768px) {
@@ -76,7 +77,7 @@
     background: var(--wesbos);
     border-radius: 3px;
     z-index: -1;
-    transition: 0.24s;
+    transition: 0.1s;
   }
   
   * {
@@ -84,9 +85,9 @@
   }
   
   body {
-    margin: 0;
-    min-height: 100vh;
+    margin: 0;   
     display: flex;
+    min-height: 100vh;
     align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1592064064956-30807b590c08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
@@ -103,12 +104,7 @@
     margin: 0 auto; 
     /* font-family: 'Anton', sans-serif; */
   }
-  
-  /* h2 {
-    display: inline-block;
-    border-bottom: 5px solid var(--wesbos);
-    margin-top: 70px;
-    font-size: 40px;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 0.4rem;
+
+  /* #noodlesMenu{
+    min-height: 100vh;
   } */
