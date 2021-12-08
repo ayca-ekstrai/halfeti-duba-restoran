@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Saira+Condensed&display=swap');
 :root {
     --wesbos: #0d66b9;
   }
@@ -102,9 +103,8 @@
   .wrapper {
     max-width: 1000px;
     margin: 0 auto; 
-    /* font-family: 'Anton', sans-serif; */
   }
 
-  /* #noodlesMenu{
+  #noodlesMenu{
     min-height: 100vh;
-  } */
+  }
