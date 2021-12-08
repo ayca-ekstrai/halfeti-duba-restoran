@@ -23,7 +23,10 @@ body {
 .nav-item{
   text-transform: uppercase;
   font-weight: bolder;
+  border: 1px #0d66b9 solid;
 }
+
+
 .item {
   display: flex;
   align-items: center;
