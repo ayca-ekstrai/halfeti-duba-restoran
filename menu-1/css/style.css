@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Saira+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Prompt&family=Saira+Condensed&display=swap');
 :root {
   --wesbos: #0d66b9;
 }
@@ -39,25 +39,48 @@ body {
     font-family: 'Anton', sans-serif;
     color: #1d6fbb;
     text-shadow: 0px 0px 25px #131618;
+    display: flex;
+    justify-content: start;
+    align-items: start;
   }
   .item__dots {
     flex: 1;
-    border-bottom: 1px dashed #aaa;
+    border-bottom: 1px dashed #eee;
     margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .item__price {
     color: var(--wesbos);
     font-size: 25px;
     font-family: 'Anton', sans-serif;
     text-shadow: 0px 0px 25px #131618;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .item__description {
     margin-bottom: 40px; 
-    color: #aaa;
+    color: #eee;
     font-family: "Prompt", sans-serif;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: start;
+    align-items: start;
   }
   .item__description span{
     color: #322c2900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
+.item__drinks{
+  color: #0d66b9;
+  font-weight: 700;
+  font-family:  "Prompt", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
