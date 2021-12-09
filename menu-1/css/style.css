@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Prompt&family=Saira+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Prompt&family=Saira+Condensed&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
 :root {
   --wesbos: #0d66b9;
 }
@@ -20,7 +22,7 @@ body {
   color: #fff;
   opacity: 0.9;
 }
-.nav-item{
+.nav-item {
   text-transform: uppercase;
   font-weight: bolder;
   border: 1px #0d66b9 solid;
@@ -32,55 +34,59 @@ body {
   margin: 50px;
 }
 .item__title {
-    font-size: 25px;
-    color: var(--wesbos);
-    letter-spacing: 2px;
-    margin: 0;
-    font-family: 'Anton', sans-serif;
-    color: #1d6fbb;
-    text-shadow: 0px 0px 25px #131618;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-  }
-  .item__dots {
-    flex: 1;
-    border-bottom: 1px dashed #eee;
-    margin: 0 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .item__price {
-    color: var(--wesbos);
-    font-size: 25px;
-    font-family: 'Anton', sans-serif;
-    text-shadow: 0px 0px 25px #131618;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .item__description {
-    margin-bottom: 40px; 
-    color: #eee;
-    font-family: "Prompt", sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-  }
-  .item__description span{
-    color: #322c2900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-.item__drinks{
-  color: #0d66b9;
-  font-weight: 700;
-  font-family:  "Prompt", sans-serif;
+  font-size: 22px;
+  color: var(--wesbos);
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: #1d6fbb;
+  text-shadow: 0px 0px 25px #131618;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.item__dots {
+  flex: 1;
+  border-bottom: 1px dashed #eee;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__price {
+  color: var(--wesbos);
+  font-size: 25px;
+  font-family: "Anton", sans-serif;
+  text-shadow: 0px 0px 25px #131618;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__description {
+  margin-bottom: 40px;
+  color: #eee;
+  font-family: "Prompt", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.item__description span {
+  color: #322c2900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__drinks {
+  color: #aaa;
+  font-weight: 900;
+  font-family: "Prompt", sans-serif;
   justify-content: center;
   align-items: center;
   display: flex;
+  text-shadow: 0px 0px 15px #aaa;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 60px;
 }
