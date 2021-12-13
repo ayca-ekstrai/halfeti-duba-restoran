@@ -27,7 +27,9 @@ body {
   font-weight: bolder;
   border: 1px #0d66b9 solid;
 }
-
+.footer{
+  font-family: "Prompt", sans-serif;
+}
 .item {
   display: flex;
   align-items: center;
